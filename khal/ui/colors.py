@@ -20,6 +20,42 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
+mechanical = [
+    ('header'        , 'light red', ''                               ),
+    ('footer'        , 'light red', ''                               ),
+    ('line header'   , 'black'    , 'light red', 'bold'              ),
+    ('bright'        , 'dark red' , 'white'    , ('bold', 'standout')),
+    ('list'          , 'black'    , 'light red'                      ),
+    ('list focused'  , 'white'    , 'light red', 'bold'              ),
+    ('edit'          , 'black'    , 'light red'                      ),
+    ('edit focused'  , 'black'    , 'light red', 'bold'              ),
+    ('button'        , 'dark gray', 'dark cyan'                      ),
+    ('button focused', 'black'    , 'light red', 'bold'              ),
+
+    ('reveal focus', 'dark gray', 'yellow'     ),
+    ('today focus' , 'dark gray', 'light green'),
+    ('today'       , 'dark gray', 'light green'),
+
+    ('date header'         , 'light gray', ''      ),
+    ('date header focused' , 'dark gray' , 'yellow'),
+    ('date header selected', 'yellow'    , ''      ),
+
+    ('dayname'        , 'light red', ''         ),
+    ('monthname'      , 'light red', ''         ),
+    ('weeknumber_left', 'dark red' , ''         ),
+    ('edit'           , 'dark red' , ''         ),
+    ('alert'          , 'dark gray', 'light red'),
+    ('mark'           , 'dark gray', 'yellow'   ),
+
+    ('frame'            , 'light gray'  , ''),
+    ('frame focus'      , 'light red'   , ''),
+    ('frame focus color', 'yellow'      , ''),
+    ('frame focus top'  , 'dark magenta', ''),
+
+    ('editbx' , 'light gray', 'dark red'              ),
+    ('editcp' , 'black'     , 'light gray', 'standout'),
+    ('popupbg', 'light red' , ''          , 'bold'    ),
+]
 dark = [
     ('header', 'white', 'black'),
     ('footer', 'white', 'black'),

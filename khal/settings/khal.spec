@@ -31,10 +31,10 @@ path = expand_path(default=None)
 # hexadecimal value of the red, green and blue component, respectively.
 # When using a 24-bit color, make sure to enclose the color value in ' or "!
 # If `color` is set to *auto* (the default), khal looks for a color value in a
-# *color* file in this calendar's vdir. If the *color* file does not exist, the 
-# default_color (see below) is used. If color is set to '', the default_color is 
-# always used. Note that you can use `vdirsyncer metasync` to synchronize colors 
-# with your caldav server. 
+# *color* file in this calendar's vdir. If the *color* file does not exist, the
+# default_color (see below) is used. If color is set to '', the default_color is
+# always used. Note that you can use `vdirsyncer metasync` to synchronize colors
+# with your caldav server.
 
 color = color(default='auto')
 
@@ -246,7 +246,7 @@ event_view_always_visible = boolean(default=False)
 #
 # __ http://urwid.org/manual/displayattributes.html
 # .. _github: # https://github.com/pimutils/khal/issues
-theme = option('dark', 'light', default='dark')
+theme = option('mechanical', 'dark', 'light', default='mechanical')
 
 # Whether to show a visible frame (with *box drawing* characters) around some
 # (groups of) elements or not. There are currently several different frame
